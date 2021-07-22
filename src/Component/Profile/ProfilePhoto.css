@@ -1,0 +1,28 @@
+
+
+  .top-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+  }
+
+  .right {
+    flex: 2;
+  }
+  .left {
+    flex: 3;
+  }
+  img {
+    border: 2px solid var(--gray-1);
+    height: 700px;
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .top-section {
+      flex-direction: column;
+      gap: 5rem;
+      padding: 10rem 0;
+    }
+  }
+  

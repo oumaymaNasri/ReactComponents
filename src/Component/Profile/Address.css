@@ -1,0 +1,18 @@
+.container{
+    background-color: rgb(105, 85, 85);
+}
+.addressBanner__wrapper {
+    background-color: var(--deep-dark);
+    border-radius: 12px;
+    padding: 2rem 0rem;
+    text-align: center;
+}
+.addressBanner__heading {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+@media only screen and (max-width: 768px) {
+    .addressBanner__heading {
+        font-size: 2.8rem;
+}
+}
